@@ -271,10 +271,10 @@ ul{
     color: white;
     text-align: center;
     padding: 8px;
-    list-style-position: inside; /* Garante que a imagem do estilo de lista apareça dentro do item */
+    list-style-position: inside; 
     text-decoration: none;
-    align-items: center; /* Centraliza verticalmente os itens dentro do li */
-    gap: 30px; /* Espaçamento entre o texto e a imagem */
+    align-items: center; 
+    gap: 30px; 
     
 }
 
@@ -346,13 +346,13 @@ ul{
 } 
 @media (max-width: 600px) {
     #action-buttons ul {
-        flex-direction: column; /* Muda para layout vertical em telas menores */
+        flex-direction: column; 
         align-items: center;
-        gap: 15px; /* Ajusta o espaçamento entre os itens na vertical */
+        gap: 15px; 
     }
 
     #action-buttons li {
-        gap: 4px; /* Ajusta o espaçamento entre o ícone e o texto na vertical */
+        gap: 4px; 
     }
 }
 

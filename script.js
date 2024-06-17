@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     productCountSelect.addEventListener('change', updateProductDisplay);
 
-    // Initialize display
+    
     updateProductDisplay();
 });
 // -------------------------------------- //
